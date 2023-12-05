@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: left;
+    background-color: #333333;
+    padding: 5vh;
+    /* Padding in vh units for top and bottom */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+textarea,
+input,
+button {
+    margin: 2vh 0;
+    /* Margin in vh units for top and bottom */
+    padding: 2vh 3vh;
+    /* Padding in vh units for top and bottom, and left and right */
+    width: 80%;
+}
+
+button {
+    cursor: pointer;
+    background-color: #e74c3c;
+    color: #ffffff;
+    border: none;
+    padding: 1vh 2vh;
+    /* Padding in vh units for top and bottom, and left and right */
+}
+
+#encryptedResult,
+#decryptedResult {
+    margin-top: 2vh;
+    /* Margin in vh units for top */
+    font-weight: bold;
+    white-space: nowrap;
+    color: #27ae60;
+}
